@@ -1,0 +1,10 @@
+is_bottle = True
+is_tall = False
+if is_bottle and is_tall:
+    print("It is a tall bottle")
+elif is_bottle and not(is_tall):
+    print("It is a short bottle")
+elif not(is_bottle) and is_tall:
+    print("It is not a bottle, but its tall")
+else:
+    print("It is not a bottle or tall")
